@@ -14,6 +14,12 @@ b{
 	font-variant: small-caps;
 }
 
+.inscription{
+	text-align: center;
+	font-variant: small-caps;
+	text-indent: 0;
+}
+
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
@@ -30,21 +36,27 @@ span[epub|type~="subtitle"]{
 }
 
 table{
-	border-collapse: collapse;
-	border-width: 1px;
-	border-style: solid;
+	border-style: none;
 	margin-top: 1em;
 	margin-bottom: 1em;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+th{
+	text-align: center;
+	font-variant: small-caps;
+}
+
 td{
-	text-align: left;
-	border-width: 1px;
-	border-style: solid;
+	border-style: none;
 	padding: .5em;
-	width: 50%;
+	width: auto;
+	vertical-align: top;
+}
+
+td:first-child{
+	white-space: nowrap;
 }
 
 [epub|type~="z3998:verse"] p{
@@ -64,4 +76,25 @@ td{
 
 [epub|type~="z3998:verse"] + p{
 	text-indent: 0;
+}
+
+[epub|type~="z3998:letter"] header{
+	margin-bottom: 1em;
+}
+
+[epub|type~="z3998:letter"] footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:valediction"]{
+	text-align: right;
+}
+
+.signature{
+	font-variant: small-caps;
 }
