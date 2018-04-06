@@ -74,10 +74,6 @@ td:first-child{
 	display: none;
 }
 
-[epub|type~="z3998:verse"] + p{
-	text-indent: 0;
-}
-
 [epub|type~="z3998:letter"] header{
 	margin-bottom: 1em;
 }
