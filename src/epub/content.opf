@@ -107,12 +107,15 @@
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/part-1.xhtml" id="part-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-2.xhtml" id="part-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="part-1.xhtml"/>
 		<itemref idref="chapter-1-1.xhtml"/>
 		<itemref idref="chapter-1-2.xhtml"/>
 		<itemref idref="chapter-1-3.xhtml"/>
@@ -120,6 +123,7 @@
 		<itemref idref="chapter-1-5.xhtml"/>
 		<itemref idref="chapter-1-6.xhtml"/>
 		<itemref idref="chapter-1-7.xhtml"/>
+		<itemref idref="part-2.xhtml"/>
 		<itemref idref="chapter-2-1.xhtml"/>
 		<itemref idref="chapter-2-2.xhtml"/>
 		<itemref idref="chapter-2-3.xhtml"/>

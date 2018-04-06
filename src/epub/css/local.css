@@ -25,15 +25,6 @@ span[epub|type~="subtitle"]{
 	font-variant: small-caps;
 }
 
-[epub|type~="bridgehead"]{
-	display: block;
-	font-style: italic;
-	margin: 0 auto 3em auto;
-	max-width: 60%;
-	text-align: center;
-	text-indent: 0;
-}
-
 table{
 	border-style: none;
 	margin-top: 1em;
