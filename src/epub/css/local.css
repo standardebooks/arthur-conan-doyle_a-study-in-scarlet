@@ -17,7 +17,6 @@ b{
 .inscription{
 	text-align: center;
 	font-variant: small-caps;
-	text-indent: 0;
 }
 
 span[epub|type~="subtitle"]{
