@@ -1,19 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-abbr.name{
-	white-space: nowrap;
-}
-
-abbr.degree{
-	white-space: nowrap;
-}
-
-b{
-	font-weight: normal;
-	font-variant: small-caps;
-}
-
 .inscription{
 	text-align: center;
 	font-variant: small-caps;
@@ -66,6 +53,7 @@ td:first-child{
 
 [epub|type~="z3998:letter"] header{
 	margin-bottom: 1em;
+	text-align: left;
 }
 
 [epub|type~="z3998:letter"] footer{
