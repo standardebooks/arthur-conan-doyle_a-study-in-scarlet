@@ -6,12 +6,6 @@
 	font-variant: small-caps;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-	font-variant: small-caps;
-}
-
 table{
 	border-style: none;
 	margin-top: 1em;
