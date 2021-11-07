@@ -69,7 +69,7 @@
 		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Briton Riviére</dc:contributor>
 		<meta property="file-as" refines="#artist">Riviére, Briton</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.m.wikipedia.org/wiki/Briton_Rivière</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Briton_Rivière</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nb2007027108</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Roger Squires</dc:contributor>
