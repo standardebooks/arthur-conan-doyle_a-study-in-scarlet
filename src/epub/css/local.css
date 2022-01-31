@@ -2,28 +2,28 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 .inscription{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 table{
 	border-style: none;
-	margin-top: 1em;
 	margin-bottom: 1em;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 1em;
 }
 
 th{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 td{
 	border-style: none;
 	padding: .5em;
-	width: auto;
 	vertical-align: top;
+	width: auto;
 }
 
 td:first-child{
