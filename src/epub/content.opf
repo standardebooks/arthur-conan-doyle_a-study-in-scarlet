@@ -48,6 +48,9 @@
 		<meta property="group-position" refines="#collection-1">1</meta>
 		<meta id="collection-2" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
+		<meta id="collection-3" property="belongs-to-collection">Mystery Writers of America Top 100 Mysteries of All Time</meta>
+		<meta property="collection-type" refines="#collection-3">set</meta>
+		<meta property="group-position" refines="#collection-3">3</meta>
 		<dc:description id="description">The self-declared world’s first consulting detective unravels a mysterious case of murder and revenge.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;A Study in Scarlet&lt;/i&gt; is the novel which first introduced &lt;a href="https://standardebooks.org/ebooks/arthur-conan-doyle"&gt;Arthur Conan Doyle’s&lt;/a&gt; iconic characters Sherlock Holmes and &lt;abbr&gt;Dr.&lt;/abbr&gt; Watson. It was published in 1887 in a popular magazine, &lt;i&gt;Beeton’s Christmas Annual&lt;/i&gt;. It attracted little public attention at the time, but interest in Holmes continued to build with the subsequent series of short stories Doyle wrote featuring the austere, analytical detective—now one of the most well-known characters in all of English literature.&lt;/p&gt;
