@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/arthur-conan-doyle/a-study-in-scarlet</dc:identifier>
 		<dc:date>2018-04-06T02:45:51Z</dc:date>
@@ -52,12 +52,12 @@
 		<meta id="collection-3" property="belongs-to-collection">Mystery Writers of America Top 100 Mysteries of All Time</meta>
 		<meta property="collection-type" refines="#collection-3">set</meta>
 		<meta property="group-position" refines="#collection-3">3</meta>
-		<dc:description id="description">The self-declared world’s first consulting detective unravels a mysterious case of murder and revenge.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>The self-declared world’s first consulting detective unravels a mysterious case of murder and revenge.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;A Study in Scarlet&lt;/i&gt; is the novel which first introduced &lt;a href="https://standardebooks.org/ebooks/arthur-conan-doyle"&gt;Arthur Conan Doyle’s&lt;/a&gt; iconic characters Sherlock Holmes and &lt;abbr&gt;Dr.&lt;/abbr&gt; Watson. It was published in 1887 in a popular magazine, &lt;i&gt;Beeton’s Christmas Annual&lt;/i&gt;. It attracted little public attention at the time, but interest in Holmes continued to build with the subsequent series of short stories Doyle wrote featuring the austere, analytical detective—now one of the most well-known characters in all of English literature.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;A Study in Scarlet&lt;/i&gt; is told from the point of view of &lt;abbr&gt;Dr.&lt;/abbr&gt; John Watson, a medical doctor who has recently returned to London after suffering serious injury and illness as part of the Army Medical Department deployed to Afghanistan. In precarious health and even more precarious financial straits, he’s looking for cheap lodgings when a friend introduces him to Sherlock Holmes. The pair agree to share the rent of a flat Holmes has found.&lt;/p&gt;
 			&lt;p&gt;Watson is baffled by his companion’s strange nature, his peculiar interests, his unusual breadth of knowledge in certain fields alongside his shocking ignorance in others, and his many strange visitors. Only eventually does Watson discover that Holmes has set himself up as the world’s first “consulting detective,” and it’s not long before Watson finds himself assisting Holmes in a mysterious case. The body of a man has been found in an abandoned house, without wounds or other marks of injury. But on the wall, scrawled in blood, is the word RACHE. The subsequent unravelling of the mystery takes many unexpected turns.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/244</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/008320904</dc:source>
