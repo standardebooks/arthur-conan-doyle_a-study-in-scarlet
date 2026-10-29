@@ -69,14 +69,14 @@
 		<link href="https://github.com/standardebooks/arthur-conan-doyle_a-study-in-scarlet" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Arthur Conan Doyle</dc:creator>
 		<meta property="file-as" refines="#author">Doyle, Arthur Conan</meta>
-		<meta property="schema:alternateName" refines="#author">Sir Arthur Ignatius Conan Doyle</meta>
+		<meta property="schema:alternateName" refines="#author">Arthur Ignatius Conan Doyle</meta>
 		<link href="https://en.wikipedia.org/wiki/Arthur_Conan_Doyle" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79082292.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Briton Riviére</dc:contributor>
 		<meta property="file-as" refines="#artist">Riviére, Briton</meta>
-		<link href="https://en.wikipedia.org/wiki/Briton_Rivière" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Briton_Rivi%C3%A8re" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/nb2007027108.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Roger Squires</dc:contributor>
@@ -85,6 +85,7 @@
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
